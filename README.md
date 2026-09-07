@@ -1,12 +1,17 @@
-# 🌐 Web Development Learning Journey
+# 🌐 Full-Stack Web Development: Architecture & Engineering Journey
 
-Welcome to my web development repository! This project serves as a structured timeline documenting my growth, code progression, and hands-on exercises as I master full-stack development from scratch. 
+[![Git Progression](https://shields.io)](#)
+[![Environment](https://shields.io)](#)
+[![Version Control](https://shields.io)](#)
+
+Welcome to my production-grade web development workspace. This repository serves as a meticulously structured engineering log documenting my architectural progression, core standard implementations, and programmatic milestones as I scale from foundational layouts to full-stack engineering.
 
 ---
 
-## 📅 Roadmap Overview
-* **Days 1–5:** Core HTML Foundations (Structure, Semantics, Forms, Media, & Elements)
-* **Days 6+:** CSS Styling, Responsive Design, and Layout Architectures (Current Focus)
+## 📈 System Roadmap & Trackers
+
+* **Phase 1 (Days 01–05):** Core HTML5 Syntactical Foundations & Semantic Document Scaffolding (Completed)
+* **Phase 2 (Days 06–10):** CSS3 Style Systems, Adaptive Layout Design, & UI Mechanics (Current Focus)
 
 ---
 
@@ -14,62 +19,66 @@ Welcome to my web development repository! This project serves as a structured ti
 
 ```text
 .
-├── HTML_Day1_Basics/            # Document structures, basic tags, formatting text
-├── HTML_Day2_Elements/          # Block vs. Inline elements, layouts with division blocks
-├── HTML_Day3_Data_Forms/        # Lists, data grids/tables, and user registration forms
-├── HTML_Day4_Multimedia/        # Embedding video, rendering graphic assets, and local media
-├── HTML_Day5_Exercises_Projects/# Challenge questions, interview prep exercises, and early layouts
+├── HTML_Day1_Basics/            # Semantic document structures, header layers, and typography
+├── HTML_Day2_Elements/          # Document tree mechanics: Inline flow vs. Block isolation layouts
+├── HTML_Day3_Data_Forms/        # Data presentation layers, grid schemas, and user collection engines
+├── HTML_Day4_Multimedia/        # Rich asset pipelines, native video rendering, and responsive compression
+├── HTML_Day5_Exercises_Projects/# Modular synthesis evaluations, algorithms, and interface prototypes
 └── CSS/
-    ├── Day1/                    # CSS anatomy, link testing, selectors, and external stylesheets
-    └── Day2/                    # Mastering margins, borders, paddings, and the Box Model
+    ├── Day1/                    # Stylesheet separation of concerns, global linkages, and selector hooks
+    ├── Day2/                    # Box Model calculations: margins, custom borders, and structural padding
+    └── Day3/                    # Current: State pseudo-classes, data attributes, and Flexbox architectures
 ```
 
 ---
 
-## 🛠️ Daily Curriculum & Accomplishments
+## 🛠️ Engineering Ledger & Architectural Achievements
 
-### 📝 Week 1: Semantic HTML5 Fundamentals
+### 🧱 Sprint 1: Semantic HTML5 Architecture
 
-#### 🚀 Day 1: Document Scaffolding & Typography
-* Mastered the essential configuration tags (`<!DOCTYPE html>`, `<html>`, `<head>`, `<body>`, `<meta>`).
-* Explored native textual tags including bold, italics, underlines, lines breaks, and divider rules (`<br>`, `<hr>`).
-* Handled typographic nuances using subscript (`<sub>`) and superscript (`<sup>`) layouts.
+#### 🚀 Day 1: Document Scaffolding & Typography Engine
+* Configured core metadata engines (`<!DOCTYPE html>`, `<head>`, `<meta charset="UTF-8">`) for global optimization.
+* Applied explicit text layout paradigms utilizing typographic tags alongside mathematical formatting tools (`<sub>`, `<sup>`).
 
 #### 📦 Day 2: Layout Isolation & The Document Tree
-* Demystified the functional differences between **Block-Level Elements** (stacking vertically) and **Inline Elements** (flowing horizontally).
-* Utilized context-neutral wrappers (`<div>` and `<span>`) to cleanly segregate text contents.
+* Mastered structural flow disparities between vertical **Block-Level Elements** and inline textual strings.
+* Utilized modular context-neutral wrappers (`<div>`, `<span>`) to execute precise DOM tree segmentation.
 
-#### 📊 Day 3: Structured Data & User Collection Frontends
-* Created organized ordered (`<ol>`) and unordered (`<ul>`) lists.
-* Mapped intricate grid schemas using tables (`<table>`, `<tr>`, `<td>`, `<th>`).
-* Constructed user-interactive portals leveraging forms (`<form>`), text inputs, placeholders, validation criteria, and buttons.
+#### 📊 Day 3: Structured Data Schemas & User Collection Frontends
+* Modeled complex, readable relational datasets using tabular elements (`<table>`, `<thead>`, `<tbody>`).
+* Assembled interactive, accessible input validation systems leveraging dynamic placeholders, form bindings, and structured element buttons.
 
 #### 🎬 Day 4: Asset Pipelines & Native Multimedia Integration
-* Integrated external asset streams using specific attributes (`src`, `alt`, `href`).
-* Handled local native video compression frameworks (`<video>`, playback attributes).
+* Coordinated asset paths relative to remote and local directories using explicit attribute properties (`src`, `alt`, `href`).
+* Implemented native multimedia controls using audio-visual APIs (`<video>`, `controls`, absolute asset dimensions).
 
-#### 🏆 Day 5: Synthesis Exercises & Mock Layout Portfolios
-* Completed modular practice algorithms and assessment items (`Question1.html` through `Question4.html`).
-* Developed primitive mock web environments including foundational portfolio frameworks and structured project wireframes.
-
----
-
-### 🎨 Week 2: CSS3 Layouts & Style Systems
-
-#### 🎨 CSS Day 1: System Hooks & Workspace Organization
-* Decoupled structural code from visual sheets by moving elements to modular folder hierarchies.
-* Integrated global document rules using external linkages (`<link rel="stylesheet">`).
-
-#### 📦 CSS Day 2: Advanced Layout Dynamics & Box Properties
-* Unpacked the foundational **CSS Box Model** rules managing explicit content dimensions, internal padding densities, external margin spacing, and custom border properties.
-* Designed a clean, decoupled visual UI card module (`index.html` referencing specific target `style.css`).
+#### 🏆 Day 5: Multi-Module Synthesis & Layout Prototypes
+* Resolved four algorithmic structural components (`Question1.html` through `Question4.html`).
+* Engineered standard application mock-ups representing foundational dashboard wireframes and clean personal profiles.
 
 ---
 
-## 🚀 Tech Toolkit Utilized
-* **Markup & Core Presentation:** HTML5, CSS3
-* **Environment & Tools:** Visual Studio Code (VS Code), PowerShell Core
-* **Version Management:** Git, GitHub Architecture
+### 🎨 Sprint 2: CSS3 Layout Systems & Interactive Mechanics
+
+#### 🎨 CSS Day 1: Presentation Decoupling & Workspace Architecture
+* Established proper separation of concerns by isolating design rules from HTML core structures.
+* Connected global component architectures via external style links (`<link rel="stylesheet">`).
+
+#### 📦 CSS Day 2: Advanced Layout Dynamics & Box Model Mathematics
+* Deepened control of the **CSS Box Model**, factoring explicit element sizing alongside inner pads, outer margins, and border parameters.
+* Refactored a modular, decoupled user interface element linking localized properties across file systems.
+
+#### ⚡ CSS Day 3: Custom Flexbox Components & Advanced Selector States
+* Constructed a high-fidelity **Dark Mode Card** framework using semantic layout containers.
+* Programmed micro-interactions and visual states with specialized pseudo-classes (`:hover`, `:active`, `:focus`).
+* Implemented precise structural rules utilizing modern HTML5 data-attribute selectors (`[data-type="..."]`).
 
 ---
-⭐ *Feel free to star this repository to keep up with my day-to-day web development progress!*
+
+## ⚙️ Tech Toolkit & Toolchain Configurations
+* **Presentation Layer:** HTML5 (HyperText Markup Language), CSS3 (Cascading Style Sheets)
+* **Development Shell:** PowerShell Core, Visual Studio Code (VS Code Editor)
+* **Version Control:** Git Distributed Engine, GitHub Multi-Branch Deployment Architecture
+
+---
+⭐ *If this repository helps you on your own development track, feel free to **star** the workspace to follow its evolutionary line!*
