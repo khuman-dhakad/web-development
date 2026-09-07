@@ -63,3 +63,46 @@ body {
     color: #f0f6fc;
     font-size: 1.1rem;
 }
+/* Card Action Controls Layout */
+.card-actions {
+    display: flex;
+    gap: 12px;
+}
+
+.btn {
+    flex: 1;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Target Buttons specifically using HTML5 Data Attributes */
+.btn[data-type="follow"] {
+    background-color: #238636;
+    color: #ffffff;
+    border: 1px solid rgba(240, 246, 252, 0.1);
+}
+
+.btn[data-type="follow"]:hover {
+    background-color: #2ea44f;
+    transform: translateY(-1px);
+}
+
+.btn[data-type="message"] {
+    background-color: #21262d;
+    color: #c9d1d9;
+    border: 1px solid #30363d;
+}
+
+.btn[data-type="message"]:hover {
+    background-color: #30363d;
+    border-color: #8b949e;
+}
+
+/* Active pressed micro-interaction */
+.btn:active {
+    transform: translateY(1px);
+}
