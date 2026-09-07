@@ -3,23 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Day 3: HTML Forms</title>
+    <title>CSS Day 3: Advanced UI Card</title>
     <link rel="stylesheet" href="style_day3.css">
 </head>
 <body>
-    <div class="form-container">
-        <h2>Create an Account</h2>
-        <form>
-            <div class="form-group">
-                <label for="username">Username</label>
-                <input type="text" id="username" name="username" placeholder="Enter username" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email Address</label>
-                <input type="email" id="email" name="email" placeholder="Enter email" required>
-            </div>
-            <button type="submit" class="btn-submit">Register</button>
-        </form>
-    </div>
+    <article class="profile-card">
+        <header class="card-header">
+            <div class="avatar-placeholder"></div>
+            <h2 class="user-name">Alex Dev</h2>
+            <p class="user-title">Frontend Architecture Learner</p>
+        </header>
+        
+        <section class="card-body">
+            <ul class="stats-list">
+                <li><strong>30+</strong> Days Code</li>
+                <li><strong>3</strong> Commits/Day</li>
+            </ul>
+        </section>
+
+        <footer class="card-actions">
+            <button class="btn btn-primary" data-type="follow">Follow Progress</button>
+            <button class="btn btn-secondary" data-type="message">Send Message</button>
+        </footer>
+    </article>
 </body>
 </html>
