@@ -1,67 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Day 4: Developer Portfolio Dashboard</title>
     <link rel="stylesheet" href="style_day4.css">
 </head>
+
 <body>
+    <!-- Main Dashboard Container -->
     <main class="dashboard-container">
-        <!-- Profile and Grid items will go here -->
-                 <!-- Day 3 Profile Card Component Built by Khuman -->
+        
+        <!-- Khuman's Day 3 Profile Card Component (Single Instance) -->
         <article class="profile-card">
             <header class="card-header">
+                <!-- Using your actual X/Twitter profile image directly -->
                 <img class="avatar" src="https://twimg.com" alt="Khuman Dhakad Profile Picture">
                 <h2 class="user-name">Khuman Dhakad</h2>
                 <p class="user-title">Frontend Architecture Learner</p>
             </header>
+
             <section class="card-body">
                 <ul class="stats-list">
                     <li><strong>30+</strong> Days Code</li>
                     <li><strong>3</strong> Commits/Day</li>
                 </ul>
             </section>
+
             <footer class="card-actions">
                 <button class="btn btn-primary" data-type="follow">Follow Progress</button>
                 <button class="btn btn-secondary" data-type="message">Send Message</button>
-            </footer>P
+            </footer>
         </article>
-        <!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Day 3: Advanced UI Card</title>
-    <link rel="stylesheet" href="style_day3.css">
-</head>
+        <!-- New Day 4 Showcase Feature: CSS Grid Project Gallery -->
+        <section class="projects-gallery">
+            <h3 class="section-title">Day 4 Mastered Projects</h3>
+            
+            <div class="grid-layout">
+                <!-- Project Item 1 -->
+                <div class="project-item" data-status="completed">
+                    <div class="project-overlay">
+                        <span>View Details</span>
+                    </div>
+                    <h4>HTML5 Foundations</h4>
+                    <p>Day 1 and Day 2 structure blocks.</p>
+                </div>
 
-<body>
-    <article class="profile-card">
-        <header class="card-header">
-            <!-- Updated: Replaced avatar-placeholder div with an img tag -->
-            <img class="avatar" src="https://pbs.twimg.com/profile_images/1984683249873072128/9-EoEElB_400x400.jpg" alt="Khuman Dhakad Profile Picture">
-            <h2 class="user-name">Khuman Dhakad</h2>
-            <p class="user-title">Frontend Architecture Learner</p>
-        </header>
+                <!-- Project Item 2 -->
+                <div class="project-item" data-status="completed">
+                    <div class="project-overlay">
+                        <span>View Details</span>
+                    </div>
+                    <h4>Advanced Profile Card</h4>
+                    <p>Day 3 Data attributes selectors.</p>
+                </div>
 
-
-        <section class="card-body">
-            <ul class="stats-list">
-                <li><strong>30+</strong> Days Code</li>
-                <li><strong>3</strong> Commits/Day</li>
-            </ul>
+                <!-- Project Item 3 -->
+                <div class="project-item" data-status="in-progress">
+                    <div class="project-overlay">
+                        <span>Coding Now...</span>
+                    </div>
+                    <h4>CSS Grid Dashboard</h4>
+                    <p>Day 4 Multi-column gallery layout.</p>
+                </div>
+            </div>
         </section>
 
-        <footer class="card-actions">
-            <button class="btn btn-primary" data-type="follow">Follow Progress</button>
-            <button class="btn btn-secondary" data-type="message">Send Message</button>
-        </footer>
-    </article>
-</body>
-
-</html>
     </main>
 </body>
+
 </html>
