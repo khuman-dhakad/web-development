@@ -115,3 +115,36 @@ body {
 .btn:active {
     transform: translateY(1px);
 }
+/* ========================================================
+   NEW DAY 4 EXTENSIONS: CSS Grid & Card Layout Extensions
+   ======================================================== */
+.projects-gallery {
+    width: 100%;
+}
+
+.section-title {
+    color: #f0f6fc;
+    border-bottom: 1px solid #21262d;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+/* CSS Grid Introduction Layout */
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px;
+    width: 100%;
+}
+
+/* Individual Grid Item Design */
+.project-item {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: border-color 0.2s ease;
+}
