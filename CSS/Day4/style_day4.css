@@ -148,3 +148,50 @@ body {
     overflow: hidden;
     transition: border-color 0.2s ease;
 }
+/* Target Grid Elements using data attributes status definitions */
+.project-item[data-status="completed"] {
+    border-left: 4px solid #238636;
+}
+
+.project-item[data-status="in-progress"] {
+    border-left: 4px solid #1f6feb;
+}
+
+.project-item h4 {
+    color: #f0f6fc;
+    margin: 0 0 8px 0;
+}
+
+.project-item p {
+    color: #8b949e;
+    font-size: 0.85rem;
+    margin: 0;
+}
+
+/* Smooth Slide-up Interactive Hover Overlay Feature */
+.project-overlay {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(31, 111, 235, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: top 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.project-overlay span {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.project-item:hover {
+    border-color: #8b949e;
+}
+
+.project-item:hover .project-overlay {
+    top: 0;
+}
