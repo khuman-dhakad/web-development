@@ -31,3 +31,65 @@ body {
   min-height: 100vh;
   margin: 0;
 }
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  max-width: 900px;
+  width: 100%;
+}
+
+.profile-card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-primary);
+  border-radius: 12px;
+  padding: 24px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--accent-blue);
+  margin: 0 auto 16px auto;
+  display: block;
+}
+
+.user-name {
+  color: var(--text-main);
+  margin: 0 0 4px 0;
+  font-size: 1.4rem;
+}
+
+.user-title {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin: 0 0 20px 0;
+}
+
+.stats-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid var(--border-secondary);
+  border-bottom: 1px solid var(--border-secondary);
+  padding: 12px 0;
+}
+
+.stats-list li {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.stats-list strong {
+  display: block;
+  color: var(--text-main);
+  font-size: 1.1rem;
+}
