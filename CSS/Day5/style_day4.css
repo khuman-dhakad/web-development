@@ -93,3 +93,43 @@ body {
   color: var(--text-main);
   font-size: 1.1rem;
 }
+.card-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.btn {
+  flex: 1;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+}
+
+.btn[data-type="follow"] {
+  background-color: var(--accent-green);
+  color: #ffffff;
+  border: 1px solid rgba(240, 246, 252, 0.1);
+}
+
+.btn[data-type="follow"]:hover {
+  background-color: var(--accent-green-hover);
+  transform: translateY(-1px);
+}
+
+.btn[data-type="message"] {
+  background-color: var(--border-secondary);
+  color: #c9d1d9;
+  border: 1px solid var(--border-primary);
+}
+
+.btn[data-type="message"]:hover {
+  background-color: var(--border-primary);
+  border-color: var(--text-muted);
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
