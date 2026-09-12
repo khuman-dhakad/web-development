@@ -180,3 +180,29 @@ body {
   font-size: 0.85rem;
   margin: 0;
 }
+.project-overlay {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--accent-blue-overlay);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: var(--transition-overlay);
+}
+
+.project-overlay span {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.project-item:hover {
+  border-color: var(--text-muted);
+}
+
+.project-item:hover .project-overlay {
+  top: 0;
+}
