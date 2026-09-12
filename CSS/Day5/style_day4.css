@@ -1,0 +1,33 @@
+/* ========================================================
+   DAY 5 CENTRAL ARCHITECTURE: GLOBAL DESIGN TOKENS
+   ======================================================== */
+:root {
+  /* Dynamic Palette Architecture */
+  --bg-main: #0d1117;
+  --bg-card: #161b22;
+  --border-primary: #30363d;
+  --border-secondary: #21262d;
+  --text-main: #f0f6fc;
+  --text-muted: #8b949e;
+  
+  /* System Brand Interaction Rules */
+  --accent-blue: #1f6feb;
+  --accent-blue-overlay: rgba(31, 111, 235, 0.9);
+  --accent-green: #238636;
+  --accent-green-hover: #2ea44f;
+  
+  /* Global Dynamic Transitions */
+  --transition-smooth: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-overlay: top 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+  background-color: var(--bg-main);
+  color: #c9d1d9;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
